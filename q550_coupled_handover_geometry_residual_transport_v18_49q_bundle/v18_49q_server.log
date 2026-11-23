@@ -1,0 +1,35 @@
+test_lie_bracket (test_geometry.TestGeometry.test_lie_bracket) ... ok
+test_pairs (test_geometry.TestGeometry.test_pairs) ... ok
+test_transport_identity (test_geometry.TestGeometry.test_transport_identity) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.008s
+
+OK
+v18.49q authentic replay: original 0.32671875
+v18.49q original 0.32671875 events [] at end 6-7 / 7-8 / other 0.30913 0.28001 0.41086 full projector err 1.381971410957852e-07 pair only err 0.11460510940143961
+v18.49q authentic replay: original 0.327375
+v18.49q original 0.327375 events [0.6498761838674542] at end 6-7 / 7-8 / other 0.29381 0.29929 0.4069 full projector err 1.4343834388128997e-07 pair only err 0.11518650108250313
+v18.49q authentic replay: original 0.33
+v18.49q original 0.33 events [0.6467245506201782] at end 6-7 / 7-8 / other 0.23332 0.38248 0.3842 full projector err 1.6740283876247725e-07 pair only err 0.11754815919850264
+v18.49q authentic replay: autonomous 0.327375
+v18.49q autonomous 0.327375 events [0.6497188831709796] at end 6-7 / 7-8 / other 0.291 0.30348 0.40551 full projector err 1.4462743524552878e-07 pair only err 0.11531393279440955
+v18.49q authentic replay: autonomous 0.33
+v18.49q autonomous 0.33 events [0.6465678137221236] at end 6-7 / 7-8 / other 0.23056 0.38716 0.38228 full projector err 1.68880622699699e-07 pair only err 0.11767985762968898
+{
+  "status": "PHASE_RESOLVED_NUMERICAL_AUDIT",
+  "cases": 5,
+  "events": 4,
+  "controls": {
+    "max_instantaneous_generator_closure_relative": 6.85130608930466e-16,
+    "max_projector_identity_error": 2.343179942508317e-15,
+    "max_finite_difference_projector_derivative_relative_error": 2.0186778984908843e-07,
+    "max_parent_p_share_endpoint_regression": 3.3306690738754696e-16,
+    "min_relative_spectral_gap": 0.06061780386249581,
+    "max_mechanical_ledger_error": 1.3353661926229776e-11,
+    "max_U_step_refinement": 5.139874787689797e-07
+  }
+}
+four audited figures generated
+scientific report generated
+v18.49q sendback verified: /root/elab1/hysteresis/q550_coupled_handover_geometry_residual_transport_v18_49q_bundle_sendback.zip SHA entries 22
