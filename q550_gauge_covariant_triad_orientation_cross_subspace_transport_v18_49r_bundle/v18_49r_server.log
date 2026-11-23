@@ -1,0 +1,40 @@
+test_blocks (test_triad.Tests.test_blocks) ... ok
+test_continuous_alignment (test_triad.Tests.test_continuous_alignment) ... ok
+test_cross_zero (test_triad.Tests.test_cross_zero) ... ok
+test_sign_gauge (test_triad.Tests.test_sign_gauge) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.033s
+
+OK
+v18.49r authentic 11D and 10D replay original 0.32671875
+  chi endpoint 1.0000000000000002 triad rotation [deg] 10.636674 cross-only S error 5.3e-09 handover roots []
+v18.49r authentic 11D and 10D replay original 0.327375
+  chi endpoint 1.0 triad rotation [deg] 10.662205 cross-only S error 5.4e-09 handover roots [0.6498761838674533]
+v18.49r authentic 11D and 10D replay original 0.33
+  chi endpoint 0.9999999999999999 triad rotation [deg] 10.833133 cross-only S error 6.1e-09 handover roots [0.6467245506201232]
+v18.49r authentic 11D and 10D replay autonomous 0.327375
+  chi endpoint 1.0000000000000004 triad rotation [deg] 10.67525 cross-only S error 5.4e-09 handover roots [0.6497188831708804]
+v18.49r authentic 11D and 10D replay autonomous 0.33
+  chi endpoint 1.0 triad rotation [deg] 10.852047 cross-only S error 6.1e-09 handover roots [0.6465678137221196]
+{
+  "status": "PHASE_RESOLVED_NUMERICAL_AUDIT",
+  "cases": 5,
+  "events": 4,
+  "controls": {
+    "max_parent_endpoint_regression": 0.0,
+    "max_gauge_sign_invariance_error": 0.0,
+    "max_constant_orthogonal_chart_error": 2.6645352591003757e-15,
+    "max_block_closure": 1.9087599968841302e-16,
+    "max_cross_derivative_closure": 1.047424265162753e-13,
+    "max_subspace_fd_error": 1.456284986629284e-08,
+    "min_relative_spectral_gap": 0.06061780386249581,
+    "min_eigenline_overlap": 0.9999990667963795,
+    "max_parallel_rotation_orthogonality": 9.132417715101585e-15,
+    "max_parallel_subspace_error": 6.145183321904567e-09,
+    "max_chi_collinearity_error": 5.551115123125783e-16,
+    "max_ledger_error": 1.3353661926229776e-11
+  }
+}
+Plots saved
+Authentic v18.49r ZIP generated and verified: /root/elab1/hysteresis/q550_gauge_covariant_triad_orientation_cross_subspace_transport_v18_49r_bundle_sendback.zip SHA entries 23
