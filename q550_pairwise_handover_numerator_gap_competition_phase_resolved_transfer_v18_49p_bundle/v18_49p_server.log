@@ -1,0 +1,36 @@
+test_pair_indexing (test_handover.TestHandover.test_pair_indexing) ... ok
+test_ratio_ledger (test_handover.TestHandover.test_ratio_ledger) ... ok
+test_shapley_closure (test_handover.TestHandover.test_shapley_closure) ... ok
+test_shapley_signed (test_handover.TestHandover.test_shapley_signed) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.003s
+
+OK
+v18.49p original r 0.3 lead 6-7 → 6-7 crossings [] at end D78-D67 -0.666562133
+v18.49p original r 0.32671875 lead 6-7 → 6-7 crossings [] at end D78-D67 -0.029117468
+v18.49p original r 0.327046875 lead 6-7 → 6-7 crossings [] at end D78-D67 -0.011906803
+v18.49p original r 0.327375 lead 6-7 → 7-8 crossings [0.6498761838675366] at end D78-D67 0.005481023
+v18.49p original r 0.33 lead 6-7 → 7-8 crossings [0.6467245506200499] at end D78-D67 0.149157263
+v18.49p autonomous r 0.3 lead 6-7 → 6-7 crossings [] at end D78-D67 -0.666334096
+v18.49p autonomous r 0.32671875 lead 6-7 → 6-7 crossings [] at end D78-D67 -0.022289527
+v18.49p autonomous r 0.327046875 lead 6-7 → 6-7 crossings [] at end D78-D67 -0.004989982
+v18.49p autonomous r 0.327375 lead 6-7 → 7-8 crossings [0.6497188831709796] at end D78-D67 0.012481463
+v18.49p autonomous r 0.33 lead 6-7 → 7-8 crossings [0.6465678137220081] at end D78-D67 0.156596483
+{
+  "status": "PHASE_RESOLVED_NUMERICAL_AUDIT",
+  "cases": 10,
+  "events": 4,
+  "controls": {
+    "maximum_pair_generator_norm_sq_residual": 6.821210263296962e-13,
+    "maximum_log_ratio_identity_residual": 1.9984014443252818e-15,
+    "maximum_parent_o_pair67_share_difference": 1.0057288335474368e-11,
+    "minimum_relative_eigen_gap": 0.06061780386249581,
+    "maximum_11D_mechanical_ledger_error": 1.3353661926229776e-11,
+    "maximum_11D_forward_replay_error": 3.424991987393049e-13
+  }
+}
+PASS v18.49p numeric controls, pairwise identity, leading-pair root and two-factor Shapley closure
+Wrote v18.49p measured plots
+Generated scientific report
+v18.49p archive /root/elab1/hysteresis/q550_pairwise_handover_numerator_gap_competition_phase_resolved_transfer_v18_49p_bundle_sendback.zip manifest entries 32
